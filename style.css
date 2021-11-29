@@ -1,0 +1,95 @@
+body{
+    direction: ltr;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 325px;
+    height: 530px;
+    border: 2px solid #E0E0E0;
+    background-color: #F5F5F5;
+    box-shadow: 15px 20px 50px #989898;
+}
+.main__searchPart{
+    width: 100%;
+    height: 30%;
+    background-color: #5357E8;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+.main__introduceText{
+    margin-top: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.main__introduceText--top{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.main__input{
+    width: 95%;
+    height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: #3B4690;
+    border-radius: 20px;
+    border: none;
+    outline: none !important;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 0 5px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.main__users{
+    width: 100%;
+    height: 70%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main__eachUserSection{
+    width: 100%;
+    height: 24%;
+    box-sizing: border-box;
+    padding: 17px 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.main__imgBox{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+.main__images{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+.main__personName{
+    font-weight: bold;
+    margin: 7px 0 0 0;
+}
+.main__personLocation{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/*    responsive     */
+
+
+@media screen and (max-width: 425px){
+    div.main{
+        width: 100%;
+    }
+}
